@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+}
+
+.conteudo {
+  width: 300px;
+  padding: 40px;
+  color: rgba(245, 245, 220, 0.753);
+}
+
+.conteudo:nth-child(1) {
+  background: orange;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  /* border-radius: 7px 0px 0px 7px; */
+}
+
+.conteudo:nth-child(2) {
+  background: rgb(31, 148, 163);
+}
+
+.conteudo:nth-child(3) {
+  background: rgb(17, 117, 79);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  /* border-radius: 0px 7px 7px 0px; */
+}
+
+.imagem-topo {
+  width: 30px;
+  height: 30px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-family: monospace;
+}
+
+#botao1 {
+  color: orange;
+}
+
+#botao2 {
+  color: rgb(31, 148, 163);
+}
+
+#botao3 {
+  color: rgb(17, 117, 79);
+}
